@@ -20,7 +20,7 @@ create table curso(
 	data_inicio date  not null,
 	data_termino date not null,
 	carga_horario int not null,
-	valor_curso smallmoney not null
+	valor_curso smallmoney not null,
 	modalidade varchar(30) not null,
 	unidade varchar(30) not null,
 	descricao nvarchar(100)
@@ -114,6 +114,8 @@ create table turma(
 	foreign key (id_curso) references curso(id_curso),
 	foreign key (id_uc) references uc(id_uc)
 );
+
+
 
 create table matricula(
 	id_matricula int identity(1,1) primary key,
