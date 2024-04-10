@@ -71,7 +71,7 @@ end;
 exec sp_livro_tecnologia_ano @tecnologia_ano = '2016';
 
 /*
-Criar procedure para inserir registro de funcionario
+ Criar procedure para inserir registro de funcionario
 */
 
 create procedure sp_inserir_funcionario
@@ -86,7 +86,7 @@ exec sp_inserir_funcionario @matricula = 'TI0202', @nome = 'Manoel Gomes';
 
 
 /*
-Criar procedure para inserir registro de funcionario do tipo educador
+01 Criar procedure para inserir registro de funcionario do tipo educador
 */
 
 create procedure sp_inserir_funcionario_educador
@@ -103,7 +103,7 @@ end;
 exec sp_inserir_funcionario_educador @matricula = 'ED0203', @nome = 'Joao Gomes';
 
 /*
-Criar uma procedure para listar os livros de uma categoria específica, recebendo o
+02 Criar uma procedure para listar os livros de uma categoria específica, recebendo o
 nome da categoria como parâmetro.
 */
 
@@ -119,7 +119,7 @@ exec sp_buscar_livro_sociologia;
 
 
 /*
-Criar uma procedure para obter os nomes dos funcionários de um determinado
+03 Criar uma procedure para obter os nomes dos funcionários de um determinado
 cargo, recebendo o cargo como parâmetro.
 */
 
@@ -134,7 +134,7 @@ end;
 exec sp_cargo_funcionario;
 
 /*
-Criar uma procedure para exibir os títulos dos livros publicados antes de um ano
+04 Criar uma procedure para exibir os títulos dos livros publicados antes de um ano
 específico, recebendo o ano como parâmetro.
 */
 
@@ -149,12 +149,11 @@ exec sp_exibir_livros_ano;
 
 
 /*
-Criar uma procedure para contar o número total de livros em uma biblioteca
+05 Criar uma procedure para contar o número total de livros em uma biblioteca
 específica, recebendo o CNPJ da biblioteca como parâmetro.
 */
 
 create procedure sp_total_livros_biblioteca
-	
 as
 begin
 	select count(*) as total_livros
@@ -166,8 +165,21 @@ exec sp_total_livros_biblioteca;
 
 
 /*
-Criar uma procedure para listar os eventos de um tipo específico que aconteceram
+06 Criar uma procedure para listar os eventos de um tipo específico que aconteceram
 após um ano determinado, recebendo o tipo de evento e o ano como parâmetros.
 */
 
-create procedure 
+create procedure sp_lista_eventos
+as
+begin
+	select *
+	from evento
+	where tipo = 'palestra' and year(data) < 2021;
+end;
+
+exec sp_lista_eventos;
+
+
+/*
+07 Criar uma
+
