@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h4>Tags para criar titulos</h4>
+    <p>As tags para criar titulos são: h1 ,h2, h3, h4, h5 e h6.</p>
+
+    <hr>
+
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+    <br>
+
+    <h4>Tag para criar paragrafos</h4>
+    <p>A tag para criar parágrafo é: p.</p>
+
+    <hr>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est blanditiis labore possimus tenetur doloremque vero, quisquam aperiam omnis, adipisci, provident magnam repellat excepturi error asperiores quasi quis illum pariatur.</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est blanditiis labore possimus tenetur doloremque vero, quisquam aperiam omnis, adipisci, provident magnam repellat excepturi error asperiores quasi quis illum pariatur.</p>
+
+    <br>
+
+    <h4>Tag para criar texto em Negrito e Itálico</h4>
+    <p>A tag para criar Negrito e Itálico é: b, i.</p>
+
+    <hr>
+
+
+    <p><b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est blanditiis labore possimus tenetur doloremque vero, quisquam aperiam omnis, adipisci, provident magnam repellat excepturi error asperiores quasi quis illum pariatur.</b></p>
+    <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut est blanditiis labore possimus tenetur doloremque vero, quisquam aperiam omnis, adipisci, provident magnam repellat excepturi error asperiores quasi quis illum pariatur.</i></p>
+    <p><b>Lorem</b>, <i>ipsum</i> dolor sit amet, consectetur adipisicing elit. Aut est blanditiis labore possimus tenetur doloremque vero, quisquam aperiam omnis, adipisci, provident magnam repellat excepturi error asperiores quasi quis illum pariatur.</i></p>
+    <p><u>Lorem</u>, <s>ipsum</s> dolor sit amet, consectetur adipisicing elit. Aut est blanditiis labore possimus tenetur doloremque vero, quisquam aperiam omnis, adipisci, provident magnam repellat excepturi error asperiores quasi quis illum pariatur.</i></p>
+
+    <br>
+
+    <h4>Tag para criar listas Desordenadas e Ordenadas</h4>
+    <p>A tag para criar Desordenadas e Ordenadas é: UL, OL.</p>
+
+    <hr>
+
+    <ul>
+        <li>Maçã</li>
+        <li>Morango</li>
+        <li>Mamão</li>
+    </ul>
+
+    <ol>
+        <li>Maçã</li>
+        <li>Morango</li>
+        <li>Mamão</li>
+    </ol>
+
+    <br>
+
+    <h4>Tag para criar Tabelas</h4>
+    <p>A tag para criar Tabelas: .</p>
+
+    <hr>
+
+     <table border="10px solid "> <!-- Px é PIXEL, e nesse caso, esta considerando a borda da tabela  -->
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>30</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Zé</td>
+                <td>25</td>
+                <td>Canadá</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>19</td>
+                <td>EUA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <h4>Tag para criar Formulários</h4>
+    <p>A tag para criar Formulários: .</p>
+
+    <hr>
+
+    <form action="" method="post">
+        <label for="nome"> Nome:</label> <br>
+        <input type="text" id="nome" name="nome">
+        <br><br>
+        <label for="senha"> Senha:</label> <br> 
+        <input type="password" id="senha" name="senha">
+
+        <br>
+        <br>
+
+        <label for="idade">Idade:</label> <br>
+        <input type="number" id="idade" name="idade" min ="0" max="100"  >
+
+        <br>
+        <br>
+        <label for="email">E-mail:</label> <br>
+        <input type="email" id="email" name="email">
+
+        <br>
+        <br>
+
+        <label for="aceitar">Aceitar os termos:</label> <br>
+        <input type="checkbox" id="aceitar" name="aceitar" value="aceitar">
+        
+        <br>
+        <br>
+
+        <label>Genero:</label> <br>  
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+
+        <br>
+        <br>
+
+        <label>Cidades</label><br>
+        <select id="cidade" name="cidade">
+            <option value="">Selecione uma cidade</option>
+            <option value="Natal">Natal</option>
+            <option value="Mossoró">Mossoró</option>
+            <option value="Parnamirim">Parnamirim</option>
+        </select>
+
+        <br>
+        <br>
+
+        <textarea id="mensagem" name="mensagem" rows="5"  cols="50"></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <figure>
+        <img src="./depositphotos_216360862-stock-photo-programming-code-abstract-technology-background.jpg" alt="Programação" title="Programação"> 
+    </figure>
+
+</body>
+</html>
