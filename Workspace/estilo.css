@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(241, 241, 245);
+}
+
+#menu {
+    border: 1px solid #111111; 
+    width: 1440px;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+#banner {
+    border: 1px solid #000000; 
+    width: 1440px;
+    height: 420px;
+    background-color: #c9c9c9;
+    margin-bottom: 32px;
+
+}
+
+#destaque {
+    border: 1px solid rgb(2, 2, 2); 
+    width: 1440px;
+    height: 191px;
+    background-color: #ffffff;
+    margin-bottom: 32px;
+
+}
+
+#texto01 {
+    border: 1px solid rgb(12, 12, 12); 
+    width: 720px;
+    height: 420px;
+    background-color: #a8a7a8;
+    margin-bottom: 32px;
+
+}
+
+#foto01 {
+    border: 1px solid rgb(12, 12, 12); 
+    width: 720px;
+    height: 420px;
+    background-color: #ffffff;
+    margin-bottom: 32px;
+
+}
+
+#foto02 {
+    border: 1px solid rgb(12, 12, 12); 
+    width: 720px;
+    height: 420px;
+    background-color: #ffffff;
+    margin-bottom: 32px;
+
+}
+
+#texto02 {
+    border: 1px solid rgb(12, 12, 12); 
+    width: 720px;
+    height: 420px;
+    background-color: #a8a7a8;
+    margin-bottom: 32px;
+
+}
+
+#texto03 {
+    border: 1px solid rgb(12, 12, 12); 
+    width: 720px;
+    height: 420px;
+    background-color: #a8a7a8;
+    margin-bottom: 32px;
+
+}
+
+#foto03 {
+    border: 1px solid rgb(12, 12, 12); 
+    width: 720px;
+    height: 420px;
+    background-color: #ffffff;
+    margin-bottom: 32px;
+
+}
+
+#rodape01 {
+    border: 1px solid rgb(12, 12, 12); 
+    width: 1440px;
+    height: 488px;
+    background-color: #a8a7a8;
+    margin-bottom: 32px;
+
+}
+
+#rodape02 {
+    border: 1px solid rgb(12, 12, 12); 
+    width: 1440px;
+    height: 265px;
+    background-color: #ffffff;
+    margin-bottom: 32px;
+
+}
