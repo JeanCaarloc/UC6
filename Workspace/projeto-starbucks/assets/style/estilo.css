@@ -45,9 +45,9 @@ button:hover {
 }
 
 .descricao {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #1e3932;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -157,13 +157,16 @@ button:hover {
     height: 486px;
     background-color: #ffffff;
     margin-bottom: 32px;
+    box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
+    -webkit-box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
+    -moz-box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
 }
 
 
 #texto01 {
     width: 374px;
     height: 486px;
-    background-color: #a8a7a8;
+    background-color: #ffffff;
     margin-bottom: 32px;
 
 }
@@ -171,7 +174,7 @@ button:hover {
 #texto02 {
     width: 211px;
     height: 486px;
-    background-color: #a8a7a8;
+    background-color: #ffffff;
     margin-bottom: 32px;
 
 }
@@ -179,7 +182,7 @@ button:hover {
 #texto03 {
     width: 235px;
     height: 486px;
-    background-color: #a8a7a8;
+    background-color: #ffffff;
     margin-bottom: 32px;
 
 }
@@ -187,7 +190,7 @@ button:hover {
 #texto04 {
     width: 620px;
     height: 486px;
-    background-color: #a8a7a8;
+    background-color: #ffffff;
     margin-bottom: 32px;
 
 }
