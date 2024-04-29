@@ -10,90 +10,107 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- add comentario ctrl k ctrl c -->
     
-    <div id="menu">
-        <p>Menu</p>
-    </div>
+<!-- Aplicacao flex box para alinhar o menu na horizontal,ultilizar tag nav para a navegacao do menu    -->
+    <header id="menu"> <!-- Header = Cabeçalho -->
+        <nav id="nav-esquerda">
+            <figure>
+                <img id="logo-starbucks" src="./assets/images/starbucks-nav-logo.svg" alt="Imagem logo Starbucks" title="Logo Starbucks">
+            </figure>
+            <ul class="ul-menu">
+                <li class="li-menu"><a href="#">MENU</a></li> <!-- Tag A gera links -->
+                <li class="li-menu"><a href="#">NOSSO CAFE</a></li>
+                <li class="li-menu"><a href="#">IMPACTO SOCIAL</a></li>
+            </ul>
+            
+        </nav>
+        <nav id="nav-direita">
+            <figure>
+                <img id="historias-starbucks" src="./assets/images/starbuks-historias-logo.svg" alt="Imagem historia starbucks" title="Historia starbucks">
+            </figure>
+            <ul>
+                <li><a href="#">Encontre uma loja</a></li>  
 
-    <div id="banner">
+            </ul>
+        </nav>
+    </header>
+
+    <main id="banner">
         <figure>
             <img src="./assets/images/img.banner.starbucks.jpg" alt="Imagem com uma xícara de café" title="xícara de café">
         </figure>
-    </div>
+    </main>
 
-    <div id="destaque">
-        <p class="descricao">“Comunicado encerramento do Programa Starbucks Rewards, Starbucks Card e aplicativo Starbucks </br>Brasil.”</b></p></br></br>
+    <section id="destaque">
+        <p class="descricao">“Comunicado encerramento do Programa Starbucks Rewards, Starbucks Card e aplicativo Starbucks</br>Brasil.”</b></p></br>
         <div class="efeito-botao">
             <button>Saiba mais</button>
         </div>
-    </div>
+    </section>
 
-    <div id="cafe">
-        <div id="cafe-texo">
+    <section id="cafe">
+        <main id="cafe-texo">
             <h3 class="titulo">Uma surpresa refrescante para você</h3>
             <p class="descricao">Conheça nossa linha de <b>Cold Brew e Refreshers™</b></p></br></br>
             <div class="efeito-botao">
                 <button>Saiba mais</button>
             </div>  
-        </div>
+        </main>
 
-        <div id="cafe-foto">
-            <figure>
-                <img src="./assets/images/img.copos.png" alt="Imagem com dois Copo de Café gourmet" title="Copo de café">
-            </figure>
-        </div>
-    </div>
+        <figure id="cafe-foto">
+            <img src="./assets/images/img.copos.png" alt="Imagem com dois Copo de Café gourmet" title="Copo de café">
+        </figure>
+    </section>
 
-    <div id="planta">    
-        <div id="planta-foto">
-            <figure>
-                <img src="./assets/images/img.plantas.jpg" alt="Imagem plantando cafe" title="Planta de café">
-            </figure>
-        </div>
+    <section id="planta">    
+        <figure id="planta-foto">
+            <img src="./assets/images/img.plantas.jpg" alt="Imagem plantando cafe" title="Planta de café">
+        </figure>
 
-        <div id="planta-texto">
+        <main id="planta-texto">
             <h3 class="titulo">Coisas boas estão acontecendo</h3>
             <p class="descricao">Acreditamos que podemos e devemos gerar um impacto </br>positivo nas comunidades em que atuamos.</p></br></br>
             <div class="efeito-botao">
                 <button>Saiba mais</button>
             </div>
-        </div>
-    </div>
+        </main>
+    </section>
 
-    <div id="pessoas">       
-        <div id="pessoas-texto">
+    <section id="pessoas">       
+        <main id="pessoas-texto">
             <h3 class="titulo">Histórias e Notícias Starbucks</h3>
             <p class="descricao">Fique por dentro das novidades e conheça mais sobre nossas </br> iniciativas.</p></br></br>
             <div class="efeito-botao">
                 <button>Saiba mais</button>
             </div>
-        </div>
+        </main>
 
-        <div id="pessoas-foto">
-            <figure>
-                <img src="./assets/images/img.pessoas.jpg" alt="Imagem com pessoas no starbucks " title="Pessoas no Starbucks">
-            </figure>
-        </div>
-    </div>
+        <figure id="pessoas-foto">
+            <img src="./assets/images/img.pessoas.jpg" alt="Imagem com pessoas no starbucks " title="Pessoas no Starbucks">
+        </figure>
+    </section>
 
-    <div id="rodape01">
-        <div id="texto01">
+    <footer id="rodape-link">
+        <nav id="sobre-nos">
             <h3 class="titulo">Sobre nós</h3></br>
-                <p>Nossa empresa</br></br>
-                Nosso café</br></br>
-                Atendimento ao cliente</br></br>
-                Compliance e Privacidade</br></br>
-                Código de Ética e Conduta</br></br>
-                SouthRock</p>
-        </div>
+                <ul class="ul-rodape-link">
+                    <li class="li-rodape-link">Nossa empresa</li>
+                    <li class="li-rodape-link">Nosso café</li>
+                    <li class="li-rodape-link">Atendimento ao cliente</li>
+                    <li class="li-rodape-link">Compliance e Privacidade</li>
+                    <li class="li-rodape-link">Código de Ética e Conduta</li>
+                    <li class="li-rodape-link">SouthRock</li>
+                </ul>
+        </nav>
 
-        <div id="texto02">
-            <h3 class="titulo">Carreira</h3></br>
+        <div id="carreira">
+            <h3 >Carreira</h3></br>
             <p>Central de carreiras</p>
         </div>
 
-        <div id="texto03">
-            <h3 class="titulo">Impacto Social</h3></br>
+        <div id="impacto-social">
+            <h3 >Impacto Social</h3></br>
                 <p>Comunidade</br></br>
                 Meio Ambiente</br></br>             
                 Fornecimento ético</br></br>
@@ -101,8 +118,8 @@
                 </p>
         </div>
 
-        <div id="texto04">
-            <h3 class="titulo">Starbucks Rewards</h3></br>
+        <div id="starbucks-rewards">
+            <h3 >Starbucks Rewards</h3></br>
                 <p>
                     <p>Termos & Condições do<p> Starbucks Card</br></br>
                     Termos & Condições do<p> Starbucks Rewards</br></br>
@@ -112,7 +129,7 @@
                 </p>
         </div>
 
-    </div>
+    </footer>
 
     <div id="rodape02">
         <h3>rodape02</h3>
