@@ -125,7 +125,11 @@ a:hover { /*Hover pseudo classe que modifica propriedade html trocando proprieda
     height: 420px;
     background-color: #D4E9E2;
     margin-bottom: 32px;
+}
 
+#banner-principal {
+    width: 1440px;
+    height: 420px;
 }
 
 #destaque {
@@ -138,6 +142,7 @@ a:hover { /*Hover pseudo classe que modifica propriedade html trocando proprieda
     background-color: #D4E9E2;
     margin-bottom: 32px;
 }
+
 #cafe {
     display: flex;
     flex-direction: row;
@@ -286,11 +291,152 @@ a:hover { /*Hover pseudo classe que modifica propriedade html trocando proprieda
     margin-top: 53px;
 }
 
-#rodape02 {
-    border: 1px solid #1b342e; 
+#rodape-redes {
     display: flex;
     width: 1440px;
     height: 265px;
     background-color: #ffffff;
     margin-bottom: 32px;
+    box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.54);
+    flex-direction: column;
+}
+
+#logos-redes-sociais {
+    display: flex;
+    width: 1440px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+#logo-spotify{
+    width: 50px;
+    height: 50px;
+}
+
+#logo-facebook{
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+}
+
+#logo-linkedin{
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+#logo-instagram{
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+#logo-youtube{
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+#logo-twitter{
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+#politicas-termos{
+    display: flex;
+    width: 1440px;
+    height: 30px;
+    background-color: #ffffff; 
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.li-menu2 {
+    margin-right: 30px;
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #menu {
+        font-size: 12px;
+        width: 720px; /*Largura*/
+        height: 100px; /*Altura*/
+        background-color: #ffffff; /*Cor do fundo*/
+        display: flex; /*Usado para flexibilizar e movimentar linha ou coluna*/
+        flex-direction: row; /*Alinhar em linha*/
+        justify-content: space-between; /*Alinhar as barras, elementos flutuando a esquerda e a direita*/
+    }
+
+    #banner {
+        width: 720px;
+        height: 420px;
+        background-color: #D4E9E2;
+        margin-bottom: 32px;
+    }
+
+    #banner-principal {
+        width: 720px;
+        height: 420px;
+    }
+
+    #destaque {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 720px;
+        height: 191px;
+        background-color: #D4E9E2;
+        margin-bottom: 32px;
+    }
+
+    #cafe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #planta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pessoas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #rodape-link {
+        display: flex;
+        flex-direction: column;
+        width: 720px;
+        height: 486px;
+        background-color: #ffffff;
+        margin-bottom: 32px;
+        box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
+        -webkit-box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
+        -moz-box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
+        
+    }
+
+    #rodape-redes {
+        border: 1px solid #1b342e; 
+        display: flex;
+        width: 720px;
+        height: 265px;
+        background-color: #ffffff;
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
