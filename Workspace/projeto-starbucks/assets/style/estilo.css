@@ -297,9 +297,9 @@ a:hover { /*Hover pseudo classe que modifica propriedade html trocando proprieda
     height: 265px;
     background-color: #ffffff;
     margin-bottom: 32px;
-    box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.54);
-    -webkit-box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.54);
-    -moz-box-shadow: 0px -1px 3px 0px rgba(0,0,0,0.54);
+    box-shadow: 0px -52px 1px -51px rgba(179,176,176,0.75);
+    -webkit-box-shadow: 0px -52px 1px -51px rgba(179,176,176,0.75);
+    -moz-box-shadow: 0px -52px 1px -51px rgba(179,176,176,0.75);
     flex-direction: column;
 }
 
@@ -357,6 +357,7 @@ a:hover { /*Hover pseudo classe que modifica propriedade html trocando proprieda
     background-color: #ffffff; 
     flex-direction: row;
     margin-top: 20px;
+    align-items: center;
 }
 
 .li-menu2 {
