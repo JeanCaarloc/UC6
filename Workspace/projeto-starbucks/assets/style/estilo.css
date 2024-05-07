@@ -423,7 +423,7 @@ a:hover { /*Hover pseudo classe que modifica propriedade html trocando proprieda
         height: 486px;
         background-color: #ffffff;
         margin-bottom: 32px;
-        box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
+        box-shadow: 0px -3px 0px -1px #bdbdbdeb;
         -webkit-box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
         -moz-box-shadow: 0px -3px 0px -1px rgba(189,189,189,0.92);
         
