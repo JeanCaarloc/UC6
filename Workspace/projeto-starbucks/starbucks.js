@@ -23,7 +23,7 @@ const corAreasSite = document.getElementById('nav-esquerda','nav-direita','desta
 let grey = false;
 
 corAreasSite.addEventListener("click", function(){
-    grey != grey
+    grey =! grey
 
     if(grey){
       document.body.style.background = "#bdbdbdeb";
