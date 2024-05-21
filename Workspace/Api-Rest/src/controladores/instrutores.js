@@ -1,5 +1,5 @@
-const { instrutores } = require("../bancoDeDados");
-let { id } = require("../bancoDeDados")
+let { instrutores, id } = require("../bancoDeDados");
+
 
 
 function listarInstrutores (req, res) {
@@ -99,6 +99,8 @@ function deletarInstrutor(req, res){
     instrutores = instrutores.filter((instrutor) => {
         return instrutor.id !== Number(id);
     })
+
+    return res.status(200).json({ mensagem: "Usuário deletado com sucesso."})
 }
 
 
